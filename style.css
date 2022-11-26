@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* ############# html element styling ######### */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(./pexels-baarast-project-12454123.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    min-height: 35rem;
+    max-width: 30rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 4rem;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px 0px rgba(179, 170, 170, 0.315);
+    border-radius: 1rem;
+}
+
+h1 {
+    color: #3F3844;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.btn1 {
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    padding: .8rem;
+    margin: .7rem;
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+
+#increment_btn {
+    background-color: #00BAAD;
+}
+
+#increment_btn:hover {
+    color: #00BAAD;
+    border: 2px solid #00BAAD;
+    background-color: #fff;
+}
+
+#save_btn {
+    background-color: #C70039;
+}
+
+#save_btn:hover {
+    color: #C70039;
+    border: 2px solid #C70039;
+    background-color: #fff;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
